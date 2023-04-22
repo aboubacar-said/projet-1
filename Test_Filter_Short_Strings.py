@@ -13,5 +13,8 @@ class TestFilterStrings(unittest.TestCase):
         # Test avec une liste de chaînes avec des chaînes plus longues que la longueur minimale
         self.assertEqual(long(['abcdef', 'ghijkl', 'mnopqr'], 5), ['abcdef', 'ghijkl', 'mnopqr'])
 
+        #Test avec des chiffres
+        self.assertEqual((long['abcdf','12345',123],4),['abcdf','12345'])
+
 if __name__ == '__main__':
     unittest.main()

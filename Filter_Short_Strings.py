@@ -1,5 +1,5 @@
-def list(l):
-    return l
+
+
 
 def long(l,min_length):
     ll=[]
